@@ -1,0 +1,49 @@
+{
+  "name": "react-bsm",
+  "version": "0.1.0",
+  "description": "Basic state management hooks for React",
+  "main": "./lib/index.js",
+  "repository": "git+https://github.com/BraMKJ/react-bsm.git",
+  "author": "Bram Dijkhuis <bram@mkj.nl> (https://github.com/BraMKJ)",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc -p .",
+    "eslint-check": "eslint .",
+    "eslint-fix": "eslint --fix ."
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^14.1.0",
+    "@commitlint/config-conventional": "^14.1.0",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "conventional-changelog-cli": "^2.1.1",
+    "conventional-changelog-conventionalcommits": "^4.6.1",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-standard-jsx": "^10.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.2.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-redux-reselect": "^1.1.1",
+    "eslint-plugin-unicorn": "^38.0.1",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
